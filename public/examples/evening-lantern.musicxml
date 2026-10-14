@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 4.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<score-partwise version="4.0">
+  <work><work-title>Evening Lantern</work-title></work>
+  <identification><creator type="composer">Sol Guitar demo</creator><rights>Original demo composition</rights></identification>
+  <part-list><score-part id="P1"><part-name>Acoustic Guitar</part-name><score-instrument id="P1-I1"><instrument-name>Acoustic Guitar</instrument-name><instrument-sound>pluck.guitar.acoustic</instrument-sound></score-instrument></score-part></part-list>
+  <part id="P1">
+    <measure number="1">
+      <barline location="left"><repeat direction="forward"/></barline>
+      <attributes><divisions>4</divisions><key><fifths>-1</fifths><mode>minor</mode></key><time><beats>4</beats><beat-type>4</beat-type></time><staves>1</staves><clef><sign>G</sign><line>2</line></clef><staff-details><staff-tuning line="1"><tuning-step>E</tuning-step><tuning-octave>2</tuning-octave></staff-tuning><staff-tuning line="2"><tuning-step>A</tuning-step><tuning-octave>2</tuning-octave></staff-tuning><staff-tuning line="3"><tuning-step>D</tuning-step><tuning-octave>3</tuning-octave></staff-tuning><staff-tuning line="4"><tuning-step>G</tuning-step><tuning-octave>3</tuning-octave></staff-tuning><staff-tuning line="5"><tuning-step>B</tuning-step><tuning-octave>3</tuning-octave></staff-tuning><staff-tuning line="6"><tuning-step>E</tuning-step><tuning-octave>4</tuning-octave></staff-tuning></staff-details></attributes>
+      <direction placement="above"><direction-type><metronome><beat-unit>quarter</beat-unit><per-minute>92</per-minute></metronome></direction-type><sound tempo="92"/></direction>
+      <harmony><root><root-step>E</root-step></root><kind>minor</kind></harmony>
+      <note><pitch><step>E</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><type>quarter</type><notations><technical><string>6</string><fret>0</fret><let-ring/></technical><articulations><accent/></articulations></notations><lyric><syllabic>single</syllabic><text>Evening</text></lyric></note>
+      <note><chord/><pitch><step>B</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><type>quarter</type><notations><technical><string>2</string><fret>0</fret></technical></notations></note>
+      <note><pitch><step>G</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><type>quarter</type><notations><technical><string>6</string><fret>3</fret></technical></notations></note>
+      <note><rest/><duration>4</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>A</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><type>quarter</type><notations><technical><string>5</string><fret>0</fret></technical><tied type="start" number="1"/></notations><tie type="start" number="1"/></note>
+    </measure>
+    <measure number="2">
+      <attributes><divisions>4</divisions><key><fifths>-1</fifths><mode>minor</mode></key><time><beats>4</beats><beat-type>4</beat-type></time><clef><sign>G</sign><line>2</line></clef></attributes>
+      <direction><direction-type><metronome><beat-unit>quarter</beat-unit><per-minute>104</per-minute></metronome><words>Brightly</words></direction-type></direction>
+      <note><pitch><step>A</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><type>quarter</type><notations><technical><string>5</string><fret>0</fret></technical><tied type="stop" number="1"/></notations><tie type="stop" number="1"/></note>
+      <note><pitch><step>B</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><type>quarter</type><notations><technical><string>5</string><fret>2</fret></technical><slur type="start" number="1"/></notations></note>
+      <note><pitch><step>D</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><type>quarter</type><notations><technical><string>4</string><fret>0</fret><slide type="start"/></technical><tuplet type="start" number="1"/></notations><time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes><normal-type>eighth</normal-type></time-modification><beam number="1">begin</beam></note>
+      <note><pitch><step>E</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><type>quarter</type><notations><technical><string>4</string><fret>2</fret></technical><slur type="stop" number="1"/><tuplet type="stop" number="1"/></notations><beam number="1">end</beam></note>
+      <barline location="right"><bar-style>light-light</bar-style><repeat direction="backward" times="2"/><ending number="1" type="stop"/></barline>
+    </measure>
+  </part>
+</score-partwise>
